@@ -22,7 +22,6 @@
 
 <!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
 <link rel="stylesheet" href="/assets/css/global.css" media="all">
-<link rel="stylesheet" href="/assets/css/layout.css" media="all and (min-width: 33.236em)">
 <!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
 
 <!--[if (lt IE 9) & (!IEMobile)]>
@@ -37,15 +36,18 @@
   
   <div id="container" class="cf">
     
-    <header></header>
+    <header>
+        <h1>{{ page.title }} <span>{{ page.tagline }}</span></h1>
+    </header>
     
     <div id="main" role="main">
         {{ content }}
     </div>
     
     <footer class="cf">
-        <p><a href='http://www.designbyfront.com'><img src="images/example/footer-logo.png" alt="Front" id="footer-logo" width="150" height="150" /></a></p> 
-        <p>Front is an award-winning web strategy and design studio committed to making the web a better place.</p> 
+        <p><a href='http://about.me/enrico.rossomando'><img src="/assets/img/enrico-rossomando-redsend-mrredsend-150px.png" alt="Enrico Rossomando" id="footer-logo" width="150" height="150" /></a></p> 
+        <p>Mangatar developer, Web developer <b>(jQuery rulez :)</b>, FrontEnd <b>(JS power)</b>, BackEnd developer <b>(PHP)</b>, iOs Developer... Do you understand? <b>I'm a developer :D</b></p>
+        <p>You can find me on <b><a href="https://www.facebook.com/enrico.rossomando" title="Enrico Rossomando on Facebook">Facebook</a></b> or Twitter with <b><a href="https://twitter.com/mrredsend" title="Enrico Rossomando on Twitter">@mrredsend</a></b> or you can contact me by email at <b><a href="mailto:redsend@gmail.com" title="Enrico Rossomando">redsend@gmail.com</a></b></p> 
     </footer>
     
   </div>
